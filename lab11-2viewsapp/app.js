@@ -6,6 +6,7 @@
 //   };
 // });
 var app = angular.module('dogorcat', ['ngRoute']);
+app.controller('SimpleController',function(){});
 app.config(function($routeProvider) { $routeProvider
 
   .when('/view1',{controller: 'SimpleController', templateUrl: 'view1.html'})
