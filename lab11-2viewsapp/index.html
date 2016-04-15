@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LAB 11 TWO VIEWS APP</title>
+</head>
+<body>
+  <h1> Choose Dog or Cat</h1>
+  <section ng-app="dogorcat" ng-controller="SimpleController" >
+
+    <br>
+    <a href="#/view1.html">DOG VIEW </a>
+    &nbsp &nbsp &nbsp
+    <a href="#/view2.html">CAT VIEW</a>
+    <ng-view>
+    </ng-view>
+  </section>
+￼
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
